@@ -1,0 +1,110 @@
+/*
+* Meaghan O'Brien 
+* 30 May 2019
+* Innovative Women 
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+/*adding the 0 for the margin and padding allows me to add my own margin and padding for each section of my website*/
+body {
+ margin: 0;
+ padding: 0;
+}
+body {
+ width: 80%;
+ background-color: white;
+ margin: auto;
+ border: 1px solid black;
+ background-color: #e3caaa;
+}
+h1 {
+ padding: 10px;
+ margin: auto;
+}
+header {
+ border-bottom: 4px dashed white;
+ text-align: center;
+}
+/*deleting the borders from sidebarA and sidebarB allowed me to keep my sidebars divided from my main without a line down the middle*/
+#sidebarA {
+ width: 15%;
+ float: left;
+ margin: 5px;
+}
+main {
+ width: 50%;
+ float: left;
+ margin: 15px;
+}
+#sidebarB {
+ width: 25%;
+ float: right;
+ margin: 5px;
+}
+footer {
+ clear: both;
+ border-top: 4px dashed white;
+}
+/*This is to keep my text inside of my box*/
+ul, li {
+    list-style-position: inside;
+}
+/*These are all the specifications for my image formats*/
+#HeaderIMG {
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    width: 95%;
+}
+#Parks {
+    padding: 8px;
+    width: 90%;
+    height: 195px;
+    align-items: center;
+    clear: both;
+    border: 5px solid black;
+}
+#Rosa {
+    padding: 8px;
+    width: 90%;
+    height: 175px;
+    align-items: center;
+    clear: both;
+    border: 5px solid black;
+}
+#Family {
+    padding: 8px;
+    width: 90%;
+    height: 175px;
+    align-items: center;
+    clear: both;
+    border: 5px solid black;
+}
+#Arrest {
+    padding: 8px;
+    width: 60%;
+    height: 175px;
+    align-items: center;
+    float: left;
+    border: 5px solid black;
+}
+#Rights {
+    padding: 8px;
+    width: 30%;
+    height: 175px;
+    align-items: center;
+    float: right;
+    border: 5px solid black;
+}
+/* This is to change my link colors */
+a:hover, a:focus {
+    color:palevioletred;
+    text-decoration: underline;
+    font-size: 50px;}

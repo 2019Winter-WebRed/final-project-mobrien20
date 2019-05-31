@@ -1,0 +1,54 @@
+/*
+* Meaghan O'Brien 
+* Due Date
+* Project Name and Description
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+{
+ margin: 0;
+ padding: 0;
+}
+body {
+ width: 80%;
+ background-color: white;
+ margin: 15px auto;
+ border: 1px solid black;
+}
+h1 {
+ padding: 10px;
+}
+header {
+ border-bottom: 2px solid #ef9c00;
+ text-align: center;
+}
+#sidebarA {
+ width: 25%;
+ height: 500px;
+ float: left;
+ border-right: 2px solid #ef9c00;
+}
+main {
+ width: 50%;
+ height: 500px;
+ float: center;
+}
+#sidebarB {
+ width: 25%;
+ height: 500px;
+ float: right;
+ border-left: 2px solid #ef9c00;
+}
+footer {
+ clear: 15in;
+ border-top: 2px solid #ef9c00;
+ float: clear;
+}
+}
